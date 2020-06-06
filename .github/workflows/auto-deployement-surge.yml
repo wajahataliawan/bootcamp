@@ -30,4 +30,4 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying surge
-      run: surge ./bootcamp-waliawan.surge.sh --token "ea8be3da14decd44e74c6fae4ddecaad"
+      run: surge ./bootcamp-waliawan.surge.sh --token $ {{secrets.SURGE_TOKEN}}
